@@ -20,8 +20,7 @@ public class LeapYear {
         return false;
     }
 
-    // Metoda zwracająca "tak" lub "nie"
-    public static String takNie(int rok) {
+        public static String takNie(int rok) {
         if (czyPrzestepny(rok)) {
             return "tak";
         } else {
